@@ -10,7 +10,7 @@
 		margin-top: 4.0625rem;
 	}
 
-	p {
+	> p {
 		font-weight: 500;
 		font-size: 1.5rem;
 		line-height: 1.5rem;
@@ -48,18 +48,25 @@
 	align-items: center;
 	gap: 1.25rem;
 
-	button {
+	a {
 		width: 100%;
 		height: 4rem;
 		border: 0;
 		border-radius: 5px;
 		background-color: #AA00FE;
-		color: #fff;
-		font-size: 0.9375rem;
 		transition: filter 0.2s;
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 
 		&:hover {
 			filter: brightness(0.8);
+		}
+
+		p {
+			color: #fff;
+			font-size: 0.9375rem;
 		}
 
 		@media (max-height: 924px) {
@@ -74,7 +81,10 @@
 		@media (max-height: 808px) {
 			height: 3rem;
 			width: 80%;
-			font-size: 0.875rem;
+			
+			p {
+				font-size: 0.875rem;
+			}
 		}
 	}
 }
