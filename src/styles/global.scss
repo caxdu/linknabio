@@ -5,6 +5,19 @@
 	font-family: Poppins;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #AA00FE;
+  border-radius: 57px;
+}
+
 button {
 	cursor: pointer;
 }

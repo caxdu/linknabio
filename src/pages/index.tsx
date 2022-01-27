@@ -32,13 +32,13 @@ const Home: NextPage = () => {
 
 			<footer className={styles.footer}>
 				<a href="https://behance.net/dahora">
-					<AiOutlineBehance size={36} color="#fff" />
+					<AiOutlineBehance color="#fff" />
 				</a>
 				<a href="https://instagram.com/caxdu">
-					<AiFillInstagram size={36} />
+					<AiFillInstagram />
 				</a>
 				<a href="https://linkedin.com/in/dahora">
-					<FaLinkedinIn size={36} color="#fff" />
+					<FaLinkedinIn color="#fff" />
 				</a>
 			</footer>
 		</div>
